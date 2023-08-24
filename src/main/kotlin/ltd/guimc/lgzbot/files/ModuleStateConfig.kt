@@ -6,13 +6,13 @@ import net.mamoe.mirai.console.data.value
 
 object ModuleStateConfig : ReadOnlyPluginConfig("modulestate") {
     @ValueDescription("消息过滤器与刷屏检测")
-    val messageFilter by value(true)
+    val messageFilter by value(false)
 
     @ValueDescription("戳一戳处理")
-    val nudge by value(true)
+    val nudge by value(false)
 
     @ValueDescription("机器人被邀请进群处理")
-    val invite by value(true)
+    val invite by value(false)
 
     @ValueDescription("GroupListener (进群/退群/禁言/解除禁言)")
     val grouplistener by value(true)
@@ -21,7 +21,7 @@ object ModuleStateConfig : ReadOnlyPluginConfig("modulestate") {
     val fortune by value(true)
 
     @ValueDescription("历史上的今天")
-    val historytoday by value(true)
+    val historytoday by value(false)
 
     @ValueDescription("摸鱼人日历")
     val moyu by value(true)
