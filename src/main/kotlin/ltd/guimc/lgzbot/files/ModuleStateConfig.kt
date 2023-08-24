@@ -27,5 +27,5 @@ object ModuleStateConfig : ReadOnlyPluginConfig("modulestate") {
     val moyu by value(true)
 
     @ValueDescription("GitHub仓库信息自动查询")
-    val githubquery by value(true)
+    val githubquery by value(false)
 }
