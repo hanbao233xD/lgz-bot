@@ -15,7 +15,7 @@ object ModuleStateConfig : ReadOnlyPluginConfig("modulestate") {
     val invite by value(false)
 
     @ValueDescription("GroupListener (进群/退群/禁言/解除禁言)")
-    val grouplistener by value(true)
+    val grouplistener by value(false)
 
     @ValueDescription("占卜功能")
     val fortune by value(true)
